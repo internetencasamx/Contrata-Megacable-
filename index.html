@@ -42,7 +42,17 @@
       padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,0.06);
     }
     .logo-box { display: flex; align-items: center; gap: 10px; }
-    .logo-box img { height: 32px; width: auto; display: block; }
+    
+    /* --- ARREGLO DEL LOGO: Fondo oscuro y círculo perfecto --- */
+    .logo-box img {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;        /* <--- Convierte el logo en un círculo */
+      object-fit: contain;       /* <--- Ajusta el logo dentro del círculo sin deformarlo */
+      background: #0A0E1A;       /* <--- Fondo oscuro para matar los bordes blancos */
+      border: 1px solid rgba(255,255,255,0.1);
+      display: block;
+    }
     .logo-box span { font-weight: 800; font-size: 16px; color: #fff; }
     .header a { color: #B0B8D1; font-size: 13px; font-weight: 700; text-decoration: none; display: flex; align-items: center; gap: 4px; }
 
@@ -175,7 +185,7 @@
   <!-- HEADER -->
   <div class="header">
     <div class="logo-box">
-      <!-- RUTA CORRECTA: justo como subiste el archivo -->
+      <!-- LOGO: Ahora con fondo oscuro y círculo para matar los triángulos blancos -->
       <img src="logo-megacable.jpg" alt="Megacable Logo">
       <span>Megacable</span>
     </div>
@@ -210,10 +220,9 @@
     <div class="icon-item"><span class="emoji">📅</span><span class="label">6 Meses</span></div>
   </div>
 
-  <!-- CARA DE JUAN CARLOS (RUTA CORRECTA) -->
+  <!-- CARA DE JUAN CARLOS (ARREGLADO: con %20 para que lea el espacio) -->
   <div class="trust-block">
-    <!-- Subiste el archivo como "Juan Carlos.png" (con mayúscula y espacio) -->
-    <img src="Juan Carlos.png" alt="Juan Carlos Asesor Megacable">
+    <img src="Juan%20Carlos.png" alt="Juan Carlos Asesor Megacable">
     <div class="trust-text">
       <div class="name">Juan Carlos</div>
       <div class="role">⭐ Distribuidor Autorizado</div>
