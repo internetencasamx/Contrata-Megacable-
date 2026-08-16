@@ -46,7 +46,7 @@
     .logo-box span { font-weight: 800; font-size: 16px; color: #fff; }
     .header a { color: #B0B8D1; font-size: 13px; font-weight: 700; text-decoration: none; display: flex; align-items: center; gap: 4px; }
 
-    /* 3. HERO VISUAL (Números gigantes) */
+    /* 3. HERO VISUAL */
     .hero-visual { padding: 20px 0 10px; text-align: center; }
     .speed-badge {
       background: rgba(41, 217, 196, 0.15); border: 1px solid #29D9C4;
@@ -63,7 +63,6 @@
     .big-suffix { font-size: 26px; font-weight: 800; color: #B0B8D1; }
     .sub-speed { font-size: 14px; color: #6C76A6; font-weight: 600; margin-top: -4px; }
 
-    /* PRECIO */
     .price-visual {
       background: rgba(255,255,255,0.04); border: 2px solid rgba(255,255,255,0.08);
       border-radius: 24px; padding: 16px 24px; margin: 16px auto;
@@ -74,7 +73,6 @@
     .price-now small { font-size: 16px; font-weight: 600; color: #B0B8D1; }
     .price-old { font-size: 18px; color: #6C76A6; text-decoration: line-through; font-weight: 700; }
 
-    /* APARTADO (GANCHO PSICOLÓGICO) */
     .deposit-badge {
       display: inline-flex; align-items: center; gap: 8px;
       background: rgba(41, 217, 196, 0.1); border: 1px solid rgba(41, 217, 196, 0.3);
@@ -82,7 +80,6 @@
       color: #29D9C4; margin-top: -6px; margin-bottom: 10px;
     }
 
-    /* 4. ICONOS DE BENEFICIOS */
     .icon-grid {
       display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px;
       margin: 16px 0 20px;
@@ -94,7 +91,6 @@
     .icon-item .emoji { font-size: 26px; display: block; margin-bottom: 2px; }
     .icon-item .label { font-size: 10px; font-weight: 700; color: #B0B8D1; display: block; }
 
-    /* 5. CARA DE JUAN CARLOS (RECORTADA) */
     .trust-block {
       display: flex; align-items: center; gap: 16px;
       background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08);
@@ -109,7 +105,6 @@
     .trust-text .role { font-size: 12px; color: #29D9C4; font-weight: 600; }
     .trust-text .msg { font-size: 13px; color: #B0B8D1; margin-top: 2px; font-style: italic; }
 
-    /* 6. PRUEBA SOCIAL */
     .social-row {
       display: flex; justify-content: center; align-items: center; gap: 16px;
       background: rgba(255, 184, 0, 0.05); border: 1px solid rgba(255, 184, 0, 0.15);
@@ -118,7 +113,6 @@
     .stars { color: #FFB800; font-size: 14px; letter-spacing: 2px; }
     .count { font-size: 13px; font-weight: 700; color: #fff; }
 
-    /* 7. GARANTÍA */
     .guarantee-badge {
       text-align: center; font-size: 14px; font-weight: 700;
       color: #29D9C4; padding: 10px;
@@ -126,7 +120,6 @@
       margin-bottom: 20px;
     }
 
-    /* 8. BOTÓN GIGANTE */
     .btn-wa {
       display: flex; align-items: center; justify-content: center; gap: 12px;
       background: #25D366; color: #0A0E1A; font-weight: 900; font-size: 20px;
@@ -137,7 +130,6 @@
     .btn-wa:active { transform: scale(0.97); }
     .btn-wa .sub { font-size: 12px; font-weight: 600; opacity: 0.7; }
 
-    /* 9. FAQ (Contrato de 6 meses como ventaja) */
     .faq-section { margin-top: 28px; }
     .faq-item {
       border-bottom: 1px solid rgba(255,255,255,0.05); padding: 14px 0;
@@ -152,13 +144,11 @@
     .faq-item p { color: #B0B8D1; font-size: 14px; padding-top: 10px; line-height: 1.5; }
     .faq-item strong { color: #29D9C4; }
 
-    /* 10. FOOTER (Letra chica legal) */
     .legal-footer {
       text-align: center; font-size: 10px; color: #4C5578;
       padding: 20px 0 10px; line-height: 1.8;
     }
 
-    /* 11. STICKY FOOTER */
     .sticky-footer {
       position: fixed; bottom: 0; left: 0; right: 0;
       background: rgba(10, 14, 26, 0.92); backdrop-filter: blur(12px);
@@ -175,7 +165,7 @@
 </head>
 <body>
 
-<!-- BARRA DE URGENCIA (Solo Querétaro) -->
+<!-- BARRA DE URGENCIA -->
 <div class="flash-bar">
   <span class="dot"></span>
   📍 INSTALACIÓN DISPONIBLE EN QUERÉTARO Y ZM (ÚLTIMOS 5 ESPACIOS)
@@ -185,8 +175,8 @@
   <!-- HEADER -->
   <div class="header">
     <div class="logo-box">
-      <!-- COLOCA AQUÍ TU LOGO OFICIAL DE MEGACABLE (sube el archivo) -->
-      <img src="logo-megacable.png" alt="Megacable Logo">
+      <!-- RUTA CORRECTA: justo como subiste el archivo -->
+      <img src="logo-megacable.jpg" alt="Megacable Logo">
       <span>Megacable</span>
     </div>
     <a href="tel:524464044521">📞 Llamar</a>
@@ -207,13 +197,12 @@
       <span class="price-now">$500 <small>/mes</small></span>
     </div>
     
-    <!-- GANCHO DEL ADELANTO DE $100 -->
     <div class="deposit-badge">
       ✅ Solo $100 de apartado (se descuentan del primer recibo)
     </div>
   </div>
 
-  <!-- ICONOS RÁPIDOS -->
+  <!-- ICONOS -->
   <div class="icon-grid">
     <div class="icon-item"><span class="emoji">📺</span><span class="label">170 Canales</span></div>
     <div class="icon-item"><span class="emoji">📞</span><span class="label">Llamadas</span></div>
@@ -221,10 +210,10 @@
     <div class="icon-item"><span class="emoji">📅</span><span class="label">6 Meses</span></div>
   </div>
 
-  <!-- CARA DE JUAN CARLOS (FOTO RECORTADA) -->
+  <!-- CARA DE JUAN CARLOS (RUTA CORRECTA) -->
   <div class="trust-block">
-    <!-- COLOCA AQUÍ TU FOTO RECORTADA (solo cara y hombros) -->
-    <img src="juan-carlos.jpg" alt="Juan Carlos Asesor Megacable">
+    <!-- Subiste el archivo como "Juan Carlos.png" (con mayúscula y espacio) -->
+    <img src="Juan Carlos.png" alt="Juan Carlos Asesor Megacable">
     <div class="trust-text">
       <div class="name">Juan Carlos</div>
       <div class="role">⭐ Distribuidor Autorizado</div>
@@ -240,7 +229,7 @@
     <span class="count">3 Días Instalación</span>
   </div>
 
-  <!-- GARANTÍA VISUAL -->
+  <!-- GARANTÍA -->
   <div class="guarantee-badge">
     🔒 7 Días de Garantía · Si no te gusta, cancelas sin costo en la primera semana
   </div>
@@ -251,7 +240,7 @@
     <span class="sub">(Te confirmo cobertura en 2 min)</span>
   </a>
 
-  <!-- FAQ (Aquí va la magia del contrato de 6 meses) -->
+  <!-- FAQ -->
   <div class="faq-section">
     <details class="faq-item">
       <summary>📄 ¿Hay contrato? ¿Por cuánto tiempo?</summary>
@@ -267,7 +256,7 @@
     </details>
   </div>
 
-  <!-- FOOTER LEGAL (Cobertura y Retroactivo) -->
+  <!-- FOOTER LEGAL -->
   <div class="legal-footer">
     <p>Promoción sujeta a validación de cobertura geográfica en Querétaro y ZM.</p>
     <p>El adelanto de $100 se descuenta de la primera mensualidad.</p>
@@ -276,7 +265,7 @@
   </div>
 </div>
 
-<!-- STICKY FOOTER (Siempre visible) -->
+<!-- STICKY FOOTER -->
 <div class="sticky-footer">
   <a href="https://wa.me/524464044521?text=Hola%20Juan%20Carlos,%20quiero%20contratar%20los%20200%20Megas.%20Mi%20colonia%20es:" target="_blank" class="btn-wa">
     📍 ENVÍA TU COLONIA
